@@ -1,0 +1,72 @@
+  
+.cookbook-table {
+  margin: 0 auto;
+}
+
+@media(max-width: 768px) {
+  .cookbook-table {
+    max-width: 100% !important;
+    width: 100%;
+  }
+}
+
+
+
+
+.cooking-table {
+  margin: 0 auto;
+}
+ 
+@media(max-width: 768px) {
+  .cooking-table {
+    margin: 0 auto;
+  }
+}
+
+.scrollable-table {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+
+.scrollable-table thead tr {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+/* Modal  */
+.scrollable-table-modal {
+  max-height: 230px;
+  overflow-y: auto;
+}
+
+.scrollable-table-modal h5 {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc; 
+}
